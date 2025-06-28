@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff0f5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #ffb6c1, #ffc0cb);
+  padding: 15px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.logo img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.nav-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #800040;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-image: url('beauty products.webp');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+  height: 50vh;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.beauty-tips {
+  background-color: #fff0f5;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 2px solid #e0c0dd;
+}
+
+.beauty-tips h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #d63384;
+}
+
+.tip-box p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+   background: linear-gradient(90deg, #ffb6c1, #ffc0cb);
+  font-size: 0.9em;
+}
